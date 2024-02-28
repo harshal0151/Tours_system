@@ -9,7 +9,7 @@ import ava04 from "../../assets/all-images/TJ.jpg";
 
 const OUR__MEMBERS = [
   {
-    name: "Harshal Patil",
+    name: "",
     experience: "Full stack Web Developer",
     fbUrl: "#",
     instUrl: "#",
@@ -19,7 +19,7 @@ const OUR__MEMBERS = [
   },
 
   {
-    name: "Mansi Chaudhari",
+    name: "",
     experience: "Backend Developer",
     fbUrl: "#",
     instUrl: "#",
@@ -29,7 +29,7 @@ const OUR__MEMBERS = [
   },
 
   {
-    name: "Tejal Jamadar",
+    name: "",
     experience: "Manual & API's Tester ",
     fbUrl: "#",
     instUrl: "#",
@@ -39,7 +39,7 @@ const OUR__MEMBERS = [
   },
 
   {
-    name: "Grishma Patil",
+    name: "",
     experience: "DataBase mangement ",
     fbUrl: "#",
     instUrl: "#",

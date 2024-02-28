@@ -12,7 +12,6 @@ import heroImg003 from '../assets/images/hero.img003.jpg'
 import Subtitle from '../component/shared/Subtitle'
 import SearchBar from '../component/shared/SearchBar'
 import FeaturedTourList from '../component/Featured-tours/FeaturedTourList'
-import MasonryImagesGallery from '../component/Image-gallery/MasonryImagesGallery'
 import Testimonials from '../component/Testtimonial/Testimonials'
 import Newsletter from '../component/shared/Newsletter'
 

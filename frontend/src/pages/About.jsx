@@ -15,7 +15,7 @@ import heroImg003 from '../assets/images/hero.img003.jpg'
 
 
 
-import OurMembers from '../component/UI/OurMembers'
+
 
 
 
@@ -275,7 +275,7 @@ const About = () => {
               
               <h2 className="section__title">Develop By</h2>
             </Col>
-            <OurMembers />
+      
           </Row>
         </Container>
       </section>

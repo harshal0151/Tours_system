@@ -23,6 +23,7 @@ const corsOptions = {
     credentials: true,
 }
 
+
 //database connection
 mongoose.set("strictQuery", false);
 const connect = async () => {

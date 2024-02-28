@@ -54,7 +54,7 @@ const Hotel = () => {
   return (
     <div>
      
-      <ServiceHeader type="list" />
+    
       <div className="hotelContainer">
         {open && (
           <div className="slider">
