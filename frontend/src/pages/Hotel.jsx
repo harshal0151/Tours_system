@@ -52,10 +52,10 @@ const Hotel = () => {
   };
 
   return (
-    <div>
+    
      
     
-      <div className="hotelContainer">
+      <section className="hotelContainer">
         {open && (
           <div className="slider">
             <FontAwesomeIcon
@@ -134,8 +134,8 @@ const Hotel = () => {
           </div>
         </div>
  
-      </div>
-    </div>
+      </section>
+   
   );
 };
 

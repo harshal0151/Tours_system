@@ -59,14 +59,13 @@ const ServiceHeader = ({ type }) => {
         </div>
         {type !== "list" && (
           <>
-             <div className="hero__content">
-                <div className="hero__subtitle d-flex align-item-center">
-                 
-                </div>
+             <div className="hero__content text-center">
+               
                 <h1>Find your next stay  {" "}
                   <span className="highlight">Search</span>
                 </h1>
                 </div>
+           
            
             <div className="headerSearch">
               <div className="headerSearchItem">

@@ -48,11 +48,14 @@
     .footer {
         padding-top: 70px;
         padding-bottom: 30px;
+        text-align: center;
+        
     }
     
     .footer .logo img {
         width:30%;
         margin-bottom: 1rem;
+
     }
     
     .footer .logo p {
@@ -68,12 +71,20 @@
     .footer__link-title {
         color: var(--heading-color);
         margin-bottom: 1rem;
+        margin-top: 20px;
+    }
+    .footer__quik-links {
+        text-align: center;
+       align-items: center;
+       justify-content: center;
+       margin-top: 20px;
     }
     
     .footer__quik-links li a {
         text-decoration: none;
         color: var(--text-color);
         font-size:1.1rem;
+        
     }
     
     .footer__quik-links h6 span i {

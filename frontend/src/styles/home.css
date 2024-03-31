@@ -16,8 +16,6 @@
 }
 
 
-
-
 .hero__content h1 .highlight{
     color: var(--primary-color);
 }
@@ -149,6 +147,19 @@ font-weight: 500;
     }
     .experience__img{
      margin-top: 2rem;   
+    }
+    .section_subtitle{
+        margin-top: 50px;
+    }
+    .section__title{
+        margin-bottom: 20px;
+    }
+    .experience__content{
+        text-align: center;
+        margin-top: -150px;
+    }
+    .experience__content p{
+        display: none;
     }
 }
 

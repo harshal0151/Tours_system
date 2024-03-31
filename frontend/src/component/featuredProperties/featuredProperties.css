@@ -11,12 +11,23 @@
   gap: 10px;
   display: flex;
   flex-direction: column;
+  padding: 1px;
+  background-color: aliceblue;
+  border-radius: 5px;
+ 
+  padding:  10px;
 }
 
 .fpImg{
   width: 100%;
-  height: 250px;
-  object-fit: cover;
+  height: 50%;
+  
+ 
+ 
+}
+.fpImg img{
+width: 100%;
+object-fit: cover;
 }
 
 .fpName{
