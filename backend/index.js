@@ -17,7 +17,7 @@ import roomsRoute from "./routes/rooms.js"
 
 dotenv.config();
 const app = express();
-const port = "4000" || 8000;
+const port = process.env.PORT || 8000;
 const corsOptions = {
     origin: true,
     credentials: true,
@@ -28,7 +28,7 @@ const corsOptions = {
 mongoose.set("strictQuery", false);
 const connect = async () => {
     try {
-        await mongoose.connect("mongodb+srv://Harshal2122:Harshal2122@cluster0.8lfzzmo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", {
+        await mongoose.connect(process.env.MONGO_URL, {
             useNewUrlParser: true,
             useUnifiedTopology: true,
         });
