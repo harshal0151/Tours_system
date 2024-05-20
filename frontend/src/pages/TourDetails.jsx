@@ -11,7 +11,6 @@ import { BASE_URL } from '../units/config'
 import { AuthContext } from '../context/AuthContext'
 
 const TourDetails = () => {
- 
   
   const { id } = useParams()
   const reviewMsgRef = useRef ('')
@@ -35,7 +34,7 @@ const TourDetails = () => {
   e.preventDefault()
   const reviewText = reviewMsgRef.current.value;
 
-  {window.scrollTo(0, 0)}
+  
 
   try {
     if (!user || user=== undefined || user === null){

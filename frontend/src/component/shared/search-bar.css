@@ -13,7 +13,7 @@
     color: #ee6e6e;
     display: flex;
     justify-content: center;
-    align-items: end;
+    align-items:flex-end;
 }
 
 .form__group input{

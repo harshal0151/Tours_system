@@ -61,7 +61,7 @@ const toggleMenu = ()=> menuRef.current.classList.toggle('show__menu')
           <div className="nav__wrapper d-flex align-items-center justify-content-between">
            
             <div className="logo">
-              <img src={logo} alt="" />
+            <Link to = "/">  <img src={logo} alt="" /></Link>
             </div>
            
 

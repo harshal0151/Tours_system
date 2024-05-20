@@ -20,8 +20,6 @@ import Helmet from "../component/Helmet/Helmet";
 import TourSlider from "../component/UI/TourSlider";
 import AboutSlider from "../component/UI/AboutSlider";
 import HotelSlider from "../component/UI/HotelSlider";
-import FeaturedProperties from "../component/featuredProperties/FeaturedProperties";
-import Featured from "../component/featured-stays/Featured";
 import CarItem from "../component/UI/CarItem";
 import carData from "../assets/data/carData";
 import ServiceList from "../assets/services/ServiceList";
@@ -251,22 +249,7 @@ const Home = () => {
           </Container>
         </section>
 
-        {/*      gallery section start      
-      <section>
-        <Container>
-          <Row>
-            <Col lg='12'>
-              <Subtitle Subtitle={'Gallery'} />
-              <h2 className='gallery__title'>Visit our tour gallery</h2>
-            </Col>
-            <Col lg='12'>
-              <MasonryImagesGallery />
-            </Col>
-          </Row>
-        </Container>
-      </section> 
-      */}
-        {/*      gallery section end      */}
+
 
         <section>
           <Container>

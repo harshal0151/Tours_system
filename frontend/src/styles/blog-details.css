@@ -44,6 +44,13 @@ blockquote {
   color: #000d6b;
   font-weight: 600;
 }
+.comment{
+  display: flex;
+  height: 100px;
+  margin-top: 1rem;
+  align-items: center;
+  gap: 1rem;
+}
 
 @media only screen and (max-width: 768px) {
   .recent__post {
