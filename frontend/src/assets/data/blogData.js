@@ -1,6 +1,6 @@
 // import images from all-images/blog-img directory
 import img01 from "../all-images/blog-img/caves.jpg";
-import img02 from "../all-images/blog-img/PanchganiI.jpg";
+import img02 from "../all-images/blog-img/panchganiI.jpg";
 import img03 from "../all-images/blog-img/hampi_Blog.jpg";
 
 const blogData = [
