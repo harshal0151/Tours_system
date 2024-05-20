@@ -13,6 +13,7 @@ import About from '../pages/About'
 import Services from '../pages/Services'
 import Hotel from '../pages/Hotel'
 import List from '../pages/List'
+import NotFound from "../pages/NotFound";
 
 import CarRentals from "../pages/CarRentals";
 import CarRentAbout from "../pages/CarRentAbout";
@@ -20,7 +21,7 @@ import CarListing from "../pages/CarListing";
 import CarDetails from "../pages/CarDetails";
 import Blog from "../pages/Blog";
 import BlogDetails from "../pages/BlogDetails";
-import NotFound from "../pages/NotFound";
+
 import Contact from "../pages/Contact";
 import Stays from '../pages/Stays'
 
@@ -41,6 +42,7 @@ import Stays from '../pages/Stays'
       <Route path='/register' element={<Register/>} />
       <Route path='/thank-you' element={<ThankYou/>} />
       <Route path='/tour/search' element={<SearchResultList/>} />
+      <Route path="*" element={<NotFound />} />
        
        <Route path="/hotels" element={<List/>}/>
         <Route path="/hotels/:id" element={<Hotel/>}/>
@@ -53,7 +55,7 @@ import Stays from '../pages/Stays'
       <Route path="/blogs" element={<Blog />} />
       <Route path="/blogs/:slug" element={<BlogDetails />} />
       <Route path="/contact" element={<Contact />} />
-      <Route path="*" element={<NotFound />} />
+      
 
   
       </Routes>

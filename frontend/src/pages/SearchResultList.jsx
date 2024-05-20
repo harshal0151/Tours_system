@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Container, Row, Col } from 'reactstrap';
   
-import CommonSection from '../component/shared/CommonSection';
+// import CommonSection from '../component/shared/CommonSection';
 import { useLocation } from 'react-router-dom';
 import TourCard  from '../component/shared/TourCard';
 
@@ -15,7 +15,7 @@ const SearchResultList = () => {
  console.log(data)
   return (
     <>
-    <CommonSection title={"Tour Search Result"}/>
+    {/* <CommonSection title={"Tour Search Result"}/> */}
     <section>
       <Container>
         <Row>

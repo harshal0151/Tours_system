@@ -15,26 +15,31 @@ const SearchBar = () => {
     const navigate = useNavigate()
 
 
-    const searchHandler = async () => {
+   const searchHandler = async () => {
+    const location = locationRef.current.value;
+    const distance = distanceRef.current.value;
+    const maxGroupSize = maxGroupSizeRef.current.value;
 
-        const location = locationRef.current.value
-        const distance = distanceRef.current.value
-        const maxGroupSize = maxGroupSizeRef.current.value
+    if (location === '' || distance === '' || maxGroupSize === '') {
+        return alert('All fields are required!');
+    }
 
-        if (location === '' || distance === '' || maxGroupSize === '') {
-            return alert('All fields are required !');
+    try {
+        const res = await fetch(`${BASE_URL}/tours/search/getTourBySearch?city=${encodeURIComponent(location)}&distance=${encodeURIComponent(distance)}&maxGroupSize=${encodeURIComponent(maxGroupSize)}`);
+
+        if (!res.ok) {
+            throw new Error('Something went wrong');
         }
 
-        const res = await fetch(`${BASE_URL}/tours/search/getTourBySearch?city=${location}
-        &distance=${distance}&maxGroupSize=${maxGroupSize}`)
+        const result = await res.json();
+        console.log(result)
 
-        if (!res.ok) alert('Something went wrong')
+        navigate(`/tours/search?city=${encodeURIComponent(location)}&distance=${encodeURIComponent(distance)}&maxGroupSize=${encodeURIComponent(maxGroupSize)}`, { state: result.data });
+    } catch (error) {
+        alert(error.message);
+    }
+};
 
-        const result = await res.json()
-
-        navigate(`/tours/search?city=${location}&distance=${distance}
-        &maxGroupSize=${maxGroupSize}`, { state: result.data });
-    };
 
     return <Col lg="12">
         <div className="search__bar ">

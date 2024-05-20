@@ -2,3 +2,5 @@
 
 
 Built on the MERN stack, our Tour System is a feature-rich web application for seamless tour exploration and booking. Leveraging MongoDB, Express.js, React, and Node.js, it offers a user-friendly interface, detailed tour information, and secure authentication. Admin capabilities ensure easy management of tours and bookings,
+
+<b>About</b>
