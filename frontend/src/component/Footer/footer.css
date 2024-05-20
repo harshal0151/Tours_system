@@ -44,6 +44,32 @@
      font-size: 1rem;
 }
 
+.socials {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+
+.socials a {
+    color: #333;
+    font-size: 24px;
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+
+.socials a:hover i.ri-linkedin-fill {
+    color: #00a6ff; /* LinkedIn blue */
+}
+
+.socials a:hover i.ri-github-fill {
+    color: #070707; /* GitHub black */
+}
+
+.socials a i.ri-linkedin-fill {
+    color: #1e85bc; /* LinkedIn blue */
+}
+
 @media only screen and (max-width:768px){
     .footer {
         padding-top: 70px;

@@ -53,8 +53,10 @@ const Footer = () => {
               <div className="social__link d-flex align-item-center gap-4">
              
 
-                <span >
-                  <Link to='#'><i class="ri-github-fill"></i></Link>
+                <span  className='socials'>
+                  <Link to='https://github.com/harshal0151'><i class="ri-github-fill"></i></Link>
+                  <Link to='https://www.linkedin.com/in/harshal-patil-187a87245/'><i class="ri-linkedin-fill"></i></Link>
+                
                 </span>
 
                 
