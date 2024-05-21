@@ -23,6 +23,7 @@ const servicesData = [
     imgUrl: customizationImg,
     title: " customization",
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+    url: "#"
   },
 ]
 

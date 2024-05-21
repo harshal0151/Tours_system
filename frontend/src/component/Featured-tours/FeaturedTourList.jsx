@@ -3,7 +3,7 @@
 import React from 'react'
 import TourCard from '../shared/TourCard'
 import { Col } from 'reactstrap'
-
+import LoadingImg from '../../assets/all-images/blog-img/spin.svg'
 import useFetch from '../../hooks/useFetch'
 import { BASE_URL } from '../../units/config'
 
@@ -15,12 +15,13 @@ const FeaturedTourList = () => {
 
   return (
     <>
-   {
-    loading && <h4>Loading......</h4>
-   }
-   {
-    error && <h4>{error}</h4>
-   }
+     {loading && (
+        <div className='text-center pt-5 '>
+          <img src= {LoadingImg} alt='Loading...' />
+        </div>
+      )}
+      {error && <h4 className='text-center pt-5'>{error}</h4>
+      }
  
       {
        !loading && !error && featuredTours?.map(tour=> (

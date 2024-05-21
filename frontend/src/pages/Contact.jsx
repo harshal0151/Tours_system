@@ -28,6 +28,8 @@ const socialLinks = [
 
 const Contact = () => {
   return (
+    <>{window.scrollTo(0, 0)}
+   
   
     <Helmet title="Contact">
         <CarRentHeader />
@@ -94,6 +96,7 @@ const Contact = () => {
         </Container>
       </section>
     </Helmet>
+    </>
   );
 };
 

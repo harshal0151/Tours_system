@@ -1,43 +1,53 @@
-
-
-import React, { useState, useEffect } from 'react'
-
-
-import "../styles/tours.css"
-
-import Subtitle from '../component/shared/Subtitle'
-import TourCard from '../component/shared/TourCard'
-import Newsletter from '../component/shared/Newsletter'
-import SearchBar from '../component/shared/SearchBar'
-import { Container, Row, Col } from 'reactstrap'
-import Testimonials from '../component/Testtimonial/Testimonials'
-import useFetch from '../hooks/useFetch'
-import { BASE_URL } from '../units/config'
-import TourSlider from '../component/UI/TourSlider'
-import AboutSlider from "../component/UI/AboutSlider"
-import MasonryImagesGallery from "../component/Image-gallery/MasonryImagesGallery"
-
-
+import React, { useState, useEffect, useRef } from 'react';
+import "../styles/tours.css";
+import LoadingImg from '../assets/all-images/blog-img/spin.svg';
+import Subtitle from '../component/shared/Subtitle';
+import TourCard from '../component/shared/TourCard';
+import Newsletter from '../component/shared/Newsletter';
+import SearchBar from '../component/shared/SearchBar';
+import { Container, Row, Col } from 'reactstrap';
+import Testimonials from '../component/Testtimonial/Testimonials';
+import useFetch from '../hooks/useFetch';
+import { BASE_URL } from '../units/config';
+import TourSlider from '../component/UI/TourSlider';
+import AboutSlider from "../component/UI/AboutSlider";
+import MasonryImagesGallery from "../component/Image-gallery/MasonryImagesGallery";
 
 const Tours = () => {
-  window.scrollTo(0,0)
   const [pageCount, setPageCount] = useState(0);
   const [page, setPage] = useState(0);
 
-  const { data: tours, loading, error } = useFetch(`${BASE_URL}/tours?page=${page}`)
-  const { data: tourCount } = useFetch(`${BASE_URL}/tours/search/getTourCount`)
+  const containerRef = useRef(null);
+
+  const { data: tours, loading, error } = useFetch(`${BASE_URL}/tours?page=${page}`);
+  const { data: tourCount } = useFetch(`${BASE_URL}/tours/search/getTourCount`);
 
   useEffect(() => {
-    const pages = Math.ceil(tourCount / 8) // backend data count
+    const pages = Math.ceil(tourCount / 8); // backend data count
     setPageCount(pages);
-   
-  }, [page, tourCount, tours]);
-  return (
-    <>
+  }, [tourCount]);
+
+  const handlePageChange = (number) => {
+    setPage(number);
+    scrollToCenter();
+  };
+
+  const scrollToCenter = () => {
+    if (containerRef.current) {
+      const containerHeight = containerRef.current.clientHeight;
+      const scrollPosition = containerRef.current.offsetTop + containerHeight / 2 - window.innerHeight / 2;
+      const slightlyAboveScrollPosition = scrollPosition - 300; // Adjust this value as needed
+      window.scrollTo({
+        top: slightlyAboveScrollPosition,
+        behavior: "smooth"
+      });
+    }
+  };
   
 
-      
-<TourSlider/>
+  return (
+    <>
+      <TourSlider />
       <section>
         <Container>
           <Row>
@@ -45,31 +55,27 @@ const Tours = () => {
           </Row>
         </Container>
       </section>
-      <section>
+      <section ref={containerRef}>
         <Container>
-          {
-            loading && <h4 className='text-center pt-5'>Loading.....</h4>
-          }
-          {
-            error && <h4 className='text-center pt-5'>{error}</h4>
-          }
-          {
-            !loading && !error && <Row>
-              {
-                tours?.map(tour => (
-                  <Col lg='3' mb='6' sm='6' className='mb-4' key={tour._id}>
-                    <TourCard tour={tour} />
-                  </Col>
-                ))
-              }
-
+          {loading && (
+            <div className='text-center pt-5 '>
+              <img src={LoadingImg} alt='Loading...' />
+            </div>
+          )}
+          {error && <h4 className='text-center pt-5'>{error}</h4>}
+          {!loading && !error && (
+            <Row>
+              {tours?.map((tour) => (
+                <Col lg='3' mb='6' sm='6' className='mb-4' key={tour._id}>
+                  <TourCard tour={tour} />
+                </Col>
+              ))}
               <Col lg='12'>
-                <div className="pagination d-flex align-item-center 
-          justify-content-center mt-4 gap-3">
-                  {[...Array(pageCount).keys()].map(number => (
+                <div className="pagination d-flex align-item-center justify-content-center mt-4 gap-3">
+                  {[...Array(pageCount).keys()].map((number) => (
                     <span
                       key={number}
-                      onClick={() => setPage(number)}
+                      onClick={() => handlePageChange(number)}
                       className={page === number ? "active__page" : ""}
                     >
                       {number + 1}
@@ -78,7 +84,7 @@ const Tours = () => {
                 </div>
               </Col>
             </Row>
-          }
+          )}
         </Container>
       </section>
       <section>
@@ -107,10 +113,10 @@ const Tours = () => {
           </Row>
         </Container>
       </section>
-      <AboutSlider/>
+      <AboutSlider />
       <Newsletter />
     </>
-  )
-}
+  );
+};
 
-export default Tours
+export default Tours;
