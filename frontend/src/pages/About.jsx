@@ -265,20 +265,7 @@ const About = () => {
       
      
 
-  
 
-
-      <section>
-        <Container>
-          <Row>
-            <Col lg="12" className="mb-5 text-center">
-              
-              <h2 className="section__title">Develop By</h2>
-            </Col>
-      
-          </Row>
-        </Container>
-      </section>
     
 
 

@@ -19,7 +19,9 @@
 body {
   font-family: var(--font-name);
 }
-
+.layout{
+  overflow: hidden;
+}
 section {
   padding: 50px 0px;
 }
@@ -37,6 +39,7 @@ a {
   text-decoration: none;
   color: unset;
 }
+
 ul {
   list-style: none;
 }

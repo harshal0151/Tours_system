@@ -3,29 +3,22 @@ import "../styles/home.css";
 import { Container, Row, Col } from "reactstrap";
 import experienceImg from "../assets/images/experience1.jpg";
 
-import Img02 from "../assets/images/fort1.jpg";
 import heroImg001 from "../assets/images/hero.img001.jpg";
 import heroImg002 from "../assets/images/hero.img002.jpg";
 import heroImg003 from "../assets/images/hero.img003.jpg";
 
 import Subtitle from "../component/shared/Subtitle";
-import SearchBar from "../component/shared/SearchBar";
+// import SearchBar from "../component/shared/SearchBar";
 import FeaturedTourList from "../component/Featured-tours/FeaturedTourList";
 import Testimonials from "../component/Testtimonial/Testimonials";
 import Newsletter from "../component/shared/Newsletter";
 
-import HeroSlider from "../component/UI/HeroSlider";
-import FindCarForm from "../component/UI/FindCarForm";
 import Helmet from "../component/Helmet/Helmet";
 import TourSlider from "../component/UI/TourSlider";
 import AboutSlider from "../component/UI/AboutSlider";
-import HotelSlider from "../component/UI/HotelSlider";
-import CarItem from "../component/UI/CarItem";
-import carData from "../assets/data/carData";
-import ServiceList from "../assets/services/ServiceList";
 import BlogList from "../component/UI/BlogList";
-import ServiceHeader from "../component/services-header/ServiceHeader";
 import PopularTours from "../component/popular-tours/PopularTours";
+import Services from "../component/services/Services";
 
 const Home = () => {
   return (
@@ -110,26 +103,11 @@ const Home = () => {
           </Container>
         </section>
 
-        <section >
-          <Container>
-            <Row>
-              <Col lg="3">
-                <Subtitle Subtitle={"Services"} />
-                <h2 className="services__title"> Hotels & Stays</h2>
-              </Col>
-            </Row>
-          </Container>
-          <HotelSlider />
-            <ServiceHeader />
-           
-        </section >
         {/*      Featured tour section end  */}
-
-
 
         {/*      Car Rentals start      */}
 
-        <section className="p-0 hero__slider-section">
+        {/* <section className="p-0 hero__slider-section">
           <Container>
             <Row>
               <Col lg="12" className="mb-2">
@@ -180,6 +158,31 @@ const Home = () => {
               <ServiceList />
             </Row>
           </Container>
+        </section> */}
+
+        <section>
+          <Container>
+            <Row>
+              <Col>
+                <div className="hero__content">
+                  <div className="hero__subtitle d-flex align-item-center"></div>
+                  <h1>
+                    Experience Our Best {" "}
+                    <span className="highlight">services</span>
+                  </h1>
+                  <p>
+                    Our services include experienced tour guides, tailored
+                    travel plans, and seamless reservation management. Whether
+                    you're traveling to learn or to take a break, we ensure your
+                    journey is memorable and well-organized. It's not just about
+                    the destination, but the experiences and memories you create
+                    along the way.
+                  </p>
+                </div>
+                <Services />
+              </Col>
+            </Row>
+          </Container>
         </section>
 
         {/*      experience section start      */}
@@ -214,43 +217,12 @@ const Home = () => {
         <section>
           <Container>
             <Row>
-              <Col lg="6">
-                <div className="hero__content">
-                  <div className="hero__subtitle d-flex align-item-center"></div>
-                  <h1>
-                    Incredible <span className="highlight">India </span>
-                  </h1>
-                  <p>
-                    Interesting and Intriguing, India offers incredible holiday
-                    experiences through its cultural, topography, and wildlife
-                    diversity. With these amazing and unique experiences, this
-                    south Asian country conveniently finds its way into the
-                    world tourism map as one of the finest destinations for a
-                    holistic vacation. India establishes its identity as the
-                    country of architectural masterpieces, making it an ideal
-                    travel destination to plan a heritage tour in the world.
-                    While Taj Mahal makes for the major draw on an India tour,
-                    there are a plethora of monuments and edifices in every
-                    India travel guide displaying the fine architecture and
-                    grandiose of different eras in the country. The diverse
-                    Indian topography adorned with the impressive Himalayas;
-                    long stretches of coastline; expansive hot, cold and white
-                    salt deserts; dense forests; alpine meadows and lakes; and
-                    scenic waterfalls pique the tourists’ interest.
-                  </p>
-                </div>
-              </Col>
-
-              <Col lg="6">
-                <div className="experience__img">
-                  <img src={Img02} alt="" />
-                </div>
+              <Col>
+                <AboutSlider />
               </Col>
             </Row>
           </Container>
         </section>
-
-
 
         <section>
           <Container>
@@ -265,15 +237,6 @@ const Home = () => {
           </Container>
         </section>
 
-        <section>
-          <Container>
-            <Row>
-              <Col>
-                <AboutSlider />
-              </Col>
-            </Row>
-          </Container>
-        </section>
         {/*     testimoial section start      */}
 
         <section>
