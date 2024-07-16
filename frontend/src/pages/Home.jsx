@@ -25,6 +25,7 @@ import carData from "../assets/data/carData";
 import ServiceList from "../assets/services/ServiceList";
 import BlogList from "../component/UI/BlogList";
 import ServiceHeader from "../component/services-header/ServiceHeader";
+import PopularTours from "../component/popular-tours/PopularTours";
 
 const Home = () => {
   return (
@@ -74,14 +75,14 @@ const Home = () => {
             </Row>
           </Container>
         </section>
-        <section>
+        {/* <section>
           <Container>
             <Row>
               <Col lg="12"></Col>
               <SearchBar />
             </Row>
           </Container>
-        </section>
+        </section> */}
 
         {/*      Hero section end      */}
 
@@ -104,7 +105,7 @@ const Home = () => {
               <Col lg="12" className="mb-5">
                 <h2 className="featured__tour-title">Popular tour </h2>
               </Col>
-              <FeaturedTourList />
+              <PopularTours />
             </Row>
           </Container>
         </section>

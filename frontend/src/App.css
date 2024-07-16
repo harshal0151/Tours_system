@@ -46,10 +46,11 @@ ul {
   border: none !important;
   border-radius: 50px !important;
   padding: 0.4rem 1.5rem !important;
+  
 }
 
 .primary__btn a {
-  font-size: 1.1rem;
+  font-size: 1rem;
   text-decoration: none;
   color: #fff;
 }
@@ -91,8 +92,16 @@ ul {
   font-weight: 600;
   font-size: 1.2rem;
 }
-
-
+.loader{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loader img{
+  width: 5%;
+}
 
 @media only screen and (max-width:992px){
   .primary__btn a,

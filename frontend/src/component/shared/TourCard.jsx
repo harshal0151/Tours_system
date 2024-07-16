@@ -43,7 +43,7 @@ const TourCard = ({ tour }) => {
             <Link to={`/tour/${_id}`}>{title}</Link>
           </h5>
        <div className="tour__title1">
-       <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, quisquam architecto, facilis libero laboriosam iure voluptatum et quos vero nostrum veniam, maxime recusandae odit enim. Reprehenderit tempora minus dolore natus!</span>
+       <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, quisquam architecto, facilis libero laboriosam iure voluptatum et quos vero nostrum veniam!</span>
        </div>
          
           <div className="card__bottom  d-flex align-items-center

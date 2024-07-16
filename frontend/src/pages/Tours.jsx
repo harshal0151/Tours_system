@@ -58,7 +58,7 @@ const Tours = () => {
       <section ref={containerRef}>
         <Container>
           {loading && (
-            <div className='text-center pt-5 '>
+            <div className=' loader  '>
               <img src={LoadingImg} alt='Loading...' />
             </div>
           )}

@@ -16,8 +16,8 @@ const FeaturedTourList = () => {
   return (
     <>
      {loading && (
-        <div className='text-center pt-5 '>
-          <img src= {LoadingImg} alt='Loading...' />
+        <div className='loader'>
+          <img  src= {LoadingImg} alt='Loading...' />
         </div>
       )}
       {error && <h4 className='text-center pt-5'>{error}</h4>

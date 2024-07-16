@@ -46,7 +46,7 @@ const Footer = () => {
       <Container>
         <Row>
           <Col lg='3'>
-            <div className="logo">
+            <div className="footer_logo">
               <img src={logo} alt="" />
               <p>We believe in a travelling experience by providing our tour plan that suits your the best!</p>
 

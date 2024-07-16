@@ -1,94 +1,91 @@
 [
   {
-  "title": "Gateway of India",
-  "city": "Mumbai",
-  "address": "Apollo Bandar, Colaba, Mumbai, Maharashtra 400001",
-  "distance": 500,
-  "price": 1499,
-  "maxGroupSize": 15,
-  "desc": "Explore the iconic Gateway of India monument in Mumbai and learn about its rich history and significance.",
-  "reviews": [],
-
-  "photo": "/tour-images/tour-img01.jpg",
-  "featured": true
-},
-{
-  "title": "Taj Mahal Tour",
-  "city": "Agra",
-  "address": "Dharmapuri, Forest Colony, Tajganj, Agra, Uttar Pradesh 282001",
-  "distance": 200,
-  "price": 5000,
-  "maxGroupSize": 8,
-  "desc": "Visit the stunning Taj Mahal in Agra, one of the world's most iconic and beautiful buildings.",
-  "reviews": [],
-
-  "photo": "/tour-images/tour-img02.jpg",
-  "featured": true
-},
-{
-  "title": "Golden Triangle Tour",
-  "city": "Delhi",
-  "address": "Connaught Place, New Delhi",
-  "distance": 0,
-  "price": 20000,
-  "maxGroupSize": 12,
-  "desc": "Experience the best of India's cultural heritage with this tour of Delhi, Agra, and Jaipur. See the Taj Mahal, the Hawa Mahal, and other iconic landmarks, and taste delicious local cuisine.",
-  "reviews": [],
-
-  "photo": "/tour-images/tour-img03.jpg",
-  "featured": true
-},
- {
-  "title": "Kerala Backwaters Tour",
-  "city": "Kochi",
-  "address": "Fort Kochi, Kochi, Kerala",
-  "distance": 0,
-  "price": 15000,
-  "maxGroupSize": 6,
-  "desc": "Experience the serenity of the Kerala backwaters with this tour. Relax on a traditional houseboat and soak up the natural beauty of the region.",
-  "reviews": [],
-
-  "photo": "/tour-images/tour-img04.jpg",
-  "featured": true
-},
+    "title": "Gateway of India",
+    "city": "Mumbai",
+    "address": "Apollo Bandar, Colaba, Mumbai, Maharashtra 400001",
+    "distance": 500,
+    "price": 1499,
+    "maxGroupSize": 15,
+    "desc": "Explore the iconic Gateway of India monument in Mumbai and learn about its rich history and significance.",
+    "reviews": [],
+    "photo": "/tour-images/tour-img01.jpg",
+    "featured": true,
+    "popular": true
+  },
   {
-  "title": "Rajasthan Desert Tour",
-  "city": "Jodhpur",
-  "address": "Old City, Jodhpur, Rajasthan",
-  "distance": 0,
-  "price": 18000,
-  "maxGroupSize": 10,
-  "desc": "Explore the rich history and culture of Rajasthan with this tour of the Thar Desert. Visit historic forts and palaces, and experience local traditions and customs.",
-  "reviews": [],
-
-  "photo": "/tour-images/tour-img05.jpg",
-  "featured": true
-},
-{
-  "title": "Goa Beach Tour",
-  "city": "Panaji",
-  "address": "Miramar Beach, Panaji, Goa",
-  "distance": 0,
-  "price": 12000,
-  "maxGroupSize": 8,
-  "desc": "Experience the beauty of Goa's beaches with this tour. Relax on the sand, swim in the ocean, and explore the local culture and cuisine.",
-  "reviews": [],
-
-  "photo":"/tour-images/tour-img06.jpg",
-  "featured": true
-},
-{
-  "title": "Himalayan Trekking Expedition",
-  "city": "Leh",
-  "address": "Leh, Ladakh",
-  "distance": 100,
-  "price": 30000,
-  "maxGroupSize": 6,
-  "desc": "Embark on a thrilling trekking adventure in the Himalayas, starting from Leh in Ladakh. Trek through picturesque valleys, breathtaking mountain passes, and see stunning views of snow-capped peaks.",
-   "reviews": [],
-
-    "photo": "/tour-images/tour-img07.jpg",
+    "title": "Taj Mahal Tour",
+    "city": "Agra",
+    "address": "Dharmapuri, Forest Colony, Tajganj, Agra, Uttar Pradesh 282001",
+    "distance": 200,
+    "price": 5000,
+    "maxGroupSize": 8,
+    "desc": "Visit the stunning Taj Mahal in Agra, one of the world's most iconic and beautiful buildings.",
+    "reviews": [],
+    "photo": "/tour-images/tour-img02.jpg",
+    "featured": true,
+    "popular": true
+  },
+  {
+    "title": "Golden Triangle Tour",
+    "city": "Delhi",
+    "address": "Connaught Place, New Delhi",
+    "distance": 0,
+    "price": 20000,
+    "maxGroupSize": 12,
+    "desc": "Experience the best of India's cultural heritage with this tour of Delhi, Agra, and Jaipur. See the Taj Mahal, the Hawa Mahal, and other iconic landmarks, and taste delicious local cuisine.",
+    "reviews": [],
+    "photo": "/tour-images/tour-img03.jpg",
     "featured": true
+  },
+  {
+    "title": "Kerala Backwaters Tour",
+    "city": "Kochi",
+    "address": "Fort Kochi, Kochi, Kerala",
+    "distance": 0,
+    "price": 15000,
+    "maxGroupSize": 6,
+    "desc": "Experience the serenity of the Kerala backwaters with this tour. Relax on a traditional houseboat and soak up the natural beauty of the region.",
+    "reviews": [],
+    "photo": "/tour-images/tour-img04.jpg",
+    "featured": true
+  },
+  {
+    "title": "Rajasthan Desert Tour",
+    "city": "Jodhpur",
+    "address": "Old City, Jodhpur, Rajasthan",
+    "distance": 0,
+    "price": 18000,
+    "maxGroupSize": 10,
+    "desc": "Explore the rich history and culture of Rajasthan with this tour of the Thar Desert. Visit historic forts and palaces, and experience local traditions and customs.",
+    "reviews": [],
+    "photo": "/tour-images/tour-img05.jpg",
+    "featured": true,
+    "popular": true
+  },
+  {
+    "title": "Goa Beach Tour",
+    "city": "Panaji",
+    "address": "Miramar Beach, Panaji, Goa",
+    "distance": 0,
+    "price": 12000,
+    "maxGroupSize": 8,
+    "desc": "Experience the beauty of Goa's beaches with this tour. Relax on the sand, swim in the ocean, and explore the local culture and cuisine.",
+    "reviews": [],
+    "photo": "/tour-images/tour-img06.jpg",
+    "featured": true
+  },
+  {
+    "title": "Himalayan Trekking Expedition",
+    "city": "Leh",
+    "address": "Leh, Ladakh",
+    "distance": 100,
+    "price": 30000,
+    "maxGroupSize": 6,
+    "desc": "Embark on a thrilling trekking adventure in the Himalayas, starting from Leh in Ladakh. Trek through picturesque valleys, breathtaking mountain passes, and see stunning views of snow-capped peaks.",
+    "reviews": [],
+    "photo": "/tour-images/tour-img07.jpg",
+    "featured": true,
+    "popular": true
   },
   {
     "title": "Hampi Heritage Tour",
@@ -99,7 +96,6 @@
     "maxGroupSize": 15,
     "desc": "Discover the rich heritage and stunning architecture of Hampi, an ancient city in Karnataka.",
     "reviews": [],
-
     "photo": "/tour-images/tour-img08.jpg",
     "featured": false
   },
@@ -112,7 +108,6 @@
     "maxGroupSize": 6,
     "desc": "Discover the fascinating world of tea production in the scenic Darjeeling hills. Learn about the cultivation, processing, and tasting of some of the world's finest teas.",
     "reviews": [],
-
     "photo": "/tour-images/tour-img09.jpg",
     "featured": true
   },
@@ -125,12 +120,9 @@
     "maxGroupSize": 15,
     "desc": "Experience the thrill of trekking to the summit of Kalsubai, the highest peak in Maharashtra. Enjoy stunning views of the surrounding Sahyadri Mountains and explore the local flora and fauna.",
     "reviews": [],
-    
     "photo": "/tour-images/kalsubai-trek.jpg",
     "featured": true
   },
-  
-
   {
     "title": "Rishikesh Yoga Retreat",
     "city": "Rishikesh",
@@ -140,11 +132,10 @@
     "maxGroupSize": 12,
     "desc": "Immerse yourself in a rejuvenating yoga retreat in the spiritual town of Rishikesh. Experience daily yoga and meditation sessions, enjoy the serene surroundings, and connect with your inner self.",
     "reviews": [],
-    
     "photo": "/tour-images/tour-img10.jpg",
     "featured": true
-    },
-    {
+  },
+  {
     "title": "Munnar Tea Plantation Tour",
     "city": "Munnar",
     "address": "Munnar, Kerala",
@@ -153,11 +144,10 @@
     "maxGroupSize": 8,
     "desc": "Discover the lush tea plantations of Munnar, Kerala. Learn about the tea-making process, witness beautiful landscapes, and indulge in aromatic tea tastings.",
     "reviews": [],
-    
     "photo": "/tour-images/tour-img11.jpg",
     "featured": true
-    },
-    {
+  },
+  {
     "title": "Varanasi Spiritual Journey",
     "city": "Varanasi",
     "address": "Varanasi, Uttar Pradesh",
@@ -166,11 +156,11 @@
     "maxGroupSize": 10,
     "desc": "Embark on a spiritual journey in Varanasi, one of the oldest and holiest cities in the world. Witness mesmerizing Ganga Aarti ceremonies, explore ancient temples, and experience the spiritual rituals of the city.",
     "reviews": [],
-    
     "photo": "/tour-images/tour-img12.jpg",
-    "featured": true
-    },
-    {
+    "featured": true,
+    "popular": true
+  },
+  {
     "title": "Andaman Island Hopping",
     "city": "Port Blair",
     "address": "Port Blair, Andaman and Nicobar Islands",
@@ -179,8 +169,7 @@
     "maxGroupSize": 6,
     "desc": "Explore the stunning islands of Andaman and Nicobar with this island-hopping tour. Enjoy white sandy beaches, crystal-clear waters, and vibrant marine life.",
     "reviews": [],
-    
     "photo": "/tour-images/tour-img13.jpg",
     "featured": true
-    }
+  }
 ]

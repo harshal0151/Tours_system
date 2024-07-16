@@ -4,10 +4,19 @@
     line-height: 65px;
     
     
+    
 }
-
+.nav__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 100px;
+}
 .logo img {
-    width: 25%;
+    width: 100%;
+
 }
 
 .menu {

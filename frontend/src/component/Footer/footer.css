@@ -4,12 +4,12 @@
     padding-bottom: 30px;
 }
 
-.footer .logo img {
+.footer .footer_logo img {
     width:50%;
     margin-bottom: 1rem;
 }
 
-.footer .logo p {
+.footer .footer_logo p {
     color: var(--text-color);
 }
 
@@ -78,13 +78,13 @@
         
     }
     
-    .footer .logo img {
+    .footer .footer_logo img {
         width:30%;
         margin-bottom: 1rem;
 
     }
     
-    .footer .logo p {
+    .footer .footer_logo p {
         color: var(--text-color);
     }
     
