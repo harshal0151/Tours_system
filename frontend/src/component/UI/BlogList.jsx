@@ -20,7 +20,7 @@ const BlogItem = ({ item }) => {
   return (
     <Col lg="4" md="6" sm="6" className="mb-5">
       <div className="blog__item">
-        <img src={imgUrl} alt={title} className="w-100" />
+        <img src={imgUrl} alt={title} className="w-100 " />
         <div className="blog__info p-3">
           <Link to={`/blogs/${title.replace(/\s+/g, '-').toLowerCase()}`} className="blog__title">
             {title}
