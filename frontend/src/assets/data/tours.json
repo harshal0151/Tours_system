@@ -6,7 +6,17 @@
     "distance": 500,
     "price": 1499,
     "maxGroupSize": 15,
-    "desc": "Explore the iconic Gateway of India monument in Mumbai and learn about its rich history and significance.",
+    "description": [
+      {
+        "desc": "Explore the iconic Gateway of India monument in Mumbai and learn about its rich history and significance.",
+        "descSummary": "The Gateway of India is a must-visit for its historical and architectural significance. As a symbol of Mumbai, it offers a glimpse into India's colonial past and serves as a popular spot for tourists and locals alike.",
+        "descPopularSpots": "While visiting the Gateway of India, you can also explore nearby attractions like the Taj Mahal Palace Hotel, a historic luxury hotel with stunning architecture. Another popular spot is the Elephanta Caves, accessible by a ferry ride from the Gateway of India.",
+        "history": [
+          "The Gateway of India was built in 1924 to commemorate the visit of King George V and Queen Mary to India in 1911.",
+          "The monument is an architectural marvel combining Hindu and Muslim architectural styles."
+        ]
+      }
+    ],
     "reviews": [],
     "photo": "/tour-images/tour-img01.jpg",
     "featured": true,
@@ -19,7 +29,17 @@
     "distance": 200,
     "price": 5000,
     "maxGroupSize": 8,
-    "desc": "Visit the stunning Taj Mahal in Agra, one of the world's most iconic and beautiful buildings.",
+    "description": [
+      {
+        "desc": "Visit the stunning Taj Mahal in Agra, one of the world's most iconic and beautiful buildings.",
+        "descSummary": "The Taj Mahal Tour offers an unforgettable experience of witnessing the beauty of one of the Seven Wonders of the World. This tour is popular for its romantic allure and architectural magnificence.",
+        "descPopularSpots": "In addition to the Taj Mahal, visitors can explore the Agra Fort, a UNESCO World Heritage site with magnificent red sandstone and marble architecture. Another notable spot is the Mehtab Bagh, a garden complex with breathtaking views of the Taj Mahal across the Yamuna River.",
+        "history": [
+          "The Taj Mahal was commissioned by Emperor Shah Jahan in 1632 to house the tomb of his favorite wife, Mumtaz Mahal.",
+          "The Taj Mahal is renowned for its stunning white marble architecture and intricate inlay work of precious stones."
+        ]
+      }
+    ],
     "reviews": [],
     "photo": "/tour-images/tour-img02.jpg",
     "featured": true,
@@ -32,7 +52,17 @@
     "distance": 0,
     "price": 20000,
     "maxGroupSize": 12,
-    "desc": "Experience the best of India's cultural heritage with this tour of Delhi, Agra, and Jaipur. See the Taj Mahal, the Hawa Mahal, and other iconic landmarks, and taste delicious local cuisine.",
+    "description": [
+      {
+        "desc": "Experience the best of India's cultural heritage with this tour of Delhi, Agra, and Jaipur. See the Taj Mahal, the Hawa Mahal, and other iconic landmarks, and taste delicious local cuisine.",
+        "descSummary": "The Golden Triangle Tour is renowned for its comprehensive exploration of India's most famous cultural and historical landmarks across Delhi, Agra, and Jaipur. It's popular for offering a rich blend of architecture, history, and local flavors.",
+        "descPopularSpots": "Key attractions include the Red Fort and Qutub Minar in Delhi, the Taj Mahal and Agra Fort in Agra, and the Hawa Mahal and Amber Fort in Jaipur. Each of these spots showcases unique architectural styles and historical significance.",
+        "history": [
+          "The Golden Triangle is named for the triangular shape formed by the locations of New Delhi, Agra, and Jaipur on a map.",
+          "This tour circuit is a popular route for first-time visitors to India, offering a glimpse into the country's rich history and diverse culture."
+        ]
+      }
+    ],
     "reviews": [],
     "photo": "/tour-images/tour-img03.jpg",
     "featured": true
@@ -44,7 +74,17 @@
     "distance": 0,
     "price": 15000,
     "maxGroupSize": 6,
-    "desc": "Experience the serenity of the Kerala backwaters with this tour. Relax on a traditional houseboat and soak up the natural beauty of the region.",
+    "description": [
+      {
+        "desc": "Experience the serenity of the Kerala backwaters with this tour. Relax on a traditional houseboat and soak up the natural beauty of the region.",
+        "descSummary": "The Kerala Backwaters Tour is cherished for its tranquil and picturesque settings. Floating on traditional houseboats through lush, green waterways, this tour provides a unique and serene escape from the hustle and bustle of city life.",
+        "descPopularSpots": "Popular spots include the Kumarakom Bird Sanctuary, a haven for bird watchers, and Alleppey, known as the 'Venice of the East' for its beautiful backwaters. Fort Kochi is also a must-visit for its blend of colonial architecture and vibrant culture.",
+        "history": [
+          "The backwaters of Kerala are a network of interconnected canals, rivers, lakes, and inlets that stretch along the coast of the Arabian Sea.",
+          "These waterways were historically used for transport and trade, and today they are a major tourist attraction."
+        ]
+      }
+    ],
     "reviews": [],
     "photo": "/tour-images/tour-img04.jpg",
     "featured": true
@@ -56,7 +96,17 @@
     "distance": 0,
     "price": 18000,
     "maxGroupSize": 10,
-    "desc": "Explore the rich history and culture of Rajasthan with this tour of the Thar Desert. Visit historic forts and palaces, and experience local traditions and customs.",
+    "description": [
+      {
+        "desc": "Explore the rich history and culture of Rajasthan with this tour of the Thar Desert. Visit historic forts and palaces, and experience local traditions and customs.",
+        "descSummary": "The Rajasthan Desert Tour is popular for its immersive experience into the vibrant culture and majestic history of Rajasthan. From historic forts to traditional customs, this tour offers a comprehensive glimpse into the royal heritage of the region.",
+        "descPopularSpots": "Key highlights include the Mehrangarh Fort in Jodhpur, one of the largest forts in India, and the Jaisalmer Fort, a living fort with bustling markets. Visitors can also enjoy camel safaris and cultural performances in the Thar Desert.",
+        "history": [
+          "Rajasthan is known for its grand palaces and forts, which were built by the Rajput kings to showcase their wealth and power.",
+          "The Thar Desert, also known as the Great Indian Desert, is the world's 17th largest desert and is known for its unique landscape and cultural heritage."
+        ]
+      }
+    ],
     "reviews": [],
     "photo": "/tour-images/tour-img05.jpg",
     "featured": true,
@@ -69,7 +119,17 @@
     "distance": 0,
     "price": 12000,
     "maxGroupSize": 8,
-    "desc": "Experience the beauty of Goa's beaches with this tour. Relax on the sand, swim in the ocean, and explore the local culture and cuisine.",
+    "description": [
+      {
+        "desc": "Experience the beauty of Goa's beaches with this tour. Relax on the sand, swim in the ocean, and explore the local culture and cuisine.",
+        "descSummary": "The Goa Beach Tour is a favorite among beach lovers and those seeking a relaxed, fun-filled holiday. Known for its stunning beaches, vibrant nightlife, and rich culture, this tour provides a perfect mix of leisure and adventure.",
+        "descPopularSpots": "Popular beaches include Baga Beach for its nightlife and water sports, Anjuna Beach for its flea market and laid-back vibe, and Palolem Beach for its serene beauty. The Basilica of Bom Jesus in Old Goa is also a must-visit for its historical and religious significance.",
+        "history": [
+          "Goa was a Portuguese colony until 1961, and its architecture and culture reflect this heritage.",
+          "The state's beautiful beaches and vibrant culture have made it a popular tourist destination for travelers from around the world."
+        ]
+      }
+    ],
     "reviews": [],
     "photo": "/tour-images/tour-img06.jpg",
     "featured": true
@@ -81,7 +141,17 @@
     "distance": 100,
     "price": 30000,
     "maxGroupSize": 6,
-    "desc": "Embark on a thrilling trekking adventure in the Himalayas, starting from Leh in Ladakh. Trek through picturesque valleys, breathtaking mountain passes, and see stunning views of snow-capped peaks.",
+    "description": [
+      {
+        "desc": "Embark on a thrilling trekking adventure in the Himalayas, starting from Leh in Ladakh. Trek through picturesque valleys, breathtaking mountain passes, and see stunning views of snow-capped peaks.",
+        "descSummary": "The Himalayan Trekking Expedition is highly popular for its challenging yet rewarding trails, offering trekkers stunning views of snow-capped peaks and picturesque valleys. This adventure is perfect for thrill-seekers and nature enthusiasts.",
+        "descPopularSpots": "Key spots include the Nubra Valley, known for its scenic beauty and sand dunes, the Pangong Lake, famous for its crystal-clear blue waters, and the Khardung La Pass, one of the highest motorable roads in the world.",
+        "history": [
+          "Ladakh is known for its unique culture and stunning landscapes, often referred to as 'Little Tibet' due to its cultural similarities with Tibet.",
+          "The region is famous for its Buddhist monasteries, high-altitude deserts, and stark mountain scenery."
+        ]
+      }
+    ],
     "reviews": [],
     "photo": "/tour-images/tour-img07.jpg",
     "featured": true,
@@ -94,7 +164,17 @@
     "distance": 400,
     "price": 10000,
     "maxGroupSize": 15,
-    "desc": "Discover the rich heritage and stunning architecture of Hampi, an ancient city in Karnataka.",
+    "description": [
+      {
+        "desc": "Discover the rich heritage and stunning architecture of Hampi, an ancient city in Karnataka.",
+        "descSummary": "The Hampi Heritage Tour is celebrated for its exploration of the ancient ruins and stunning architecture of the Vijayanagara Empire. This tour is popular among history buffs and architecture enthusiasts.",
+        "descPopularSpots": "Key sites include the Virupaksha Temple, an ancient temple dedicated to Lord Shiva, and the Vittala Temple, famous for its stone chariot and musical pillars. The Royal Enclosure, a complex of royal buildings, is also a highlight.",
+        "history": [
+          "Hampi was the capital of the Vijayanagara Empire in the 14th century, and it was a major trading center for cotton and spices.",
+          "The ruins of Hampi are a UNESCO World Heritage site and showcase the grandeur of the Vijayanagara architecture."
+        ]
+      }
+    ],
     "reviews": [],
     "photo": "/tour-images/tour-img08.jpg",
     "featured": false
@@ -106,7 +186,17 @@
     "distance": 0,
     "price": 12000,
     "maxGroupSize": 6,
-    "desc": "Discover the fascinating world of tea production in the scenic Darjeeling hills. Learn about the cultivation, processing, and tasting of some of the world's finest teas.",
+    "description": [
+      {
+        "desc": "Discover the fascinating world of tea production in the scenic Darjeeling hills. Learn about the cultivation, processing, and tasting of some of the world's finest teas.",
+        "descSummary": "The Darjeeling Tea Plantation Tour is renowned for its scenic beauty and in-depth exploration of tea cultivation. Visitors are drawn to the lush tea gardens and the opportunity to learn about and taste some of the finest teas.",
+        "descPopularSpots": "Popular spots include the Happy Valley Tea Estate, one of the oldest tea estates in Darjeeling, and the Himalayan Mountaineering Institute, which offers stunning views of the Kanchenjunga mountains. The Batasia Loop, a spiral railway track, is also a must-visit.",
+        "history": [
+          "Darjeeling is famous for its tea plantations, which date back to the British colonial era in the 19th century.",
+          "The region's unique climate and elevation produce the distinct flavor of Darjeeling tea, often referred to as the 'Champagne of Teas.'"
+        ]
+      }
+    ],
     "reviews": [],
     "photo": "/tour-images/tour-img09.jpg",
     "featured": true
@@ -118,7 +208,17 @@
     "distance": 160,
     "price": 2000,
     "maxGroupSize": 15,
-    "desc": "Experience the thrill of trekking to the summit of Kalsubai, the highest peak in Maharashtra. Enjoy stunning views of the surrounding Sahyadri Mountains and explore the local flora and fauna.",
+    "description": [
+      {
+        "desc": "Experience the thrill of trekking to the summit of Kalsubai, the highest peak in Maharashtra. Enjoy stunning views of the surrounding Sahyadri Mountains and explore the local flora and fauna.",
+        "descSummary": "The Kalsubai Trek is a popular choice for adventure enthusiasts and nature lovers. This trek offers an exhilarating climb to the highest peak in Maharashtra, with breathtaking panoramic views of the Sahyadri range.",
+        "descPopularSpots": "Popular points along the trek include the Kalsubai Temple at the summit, and the scenic Bari Village at the base. The trek also offers views of Bhandardara Dam and Arthur Lake, which add to the scenic beauty of the journey.",
+        "history": [
+          "Kalsubai is named after a local deity and has religious significance for the villagers.",
+          "The peak is part of the Sahyadri mountain range and offers stunning views of the surrounding landscape."
+        ]
+      }
+    ],
     "reviews": [],
     "photo": "/tour-images/kalsubai-trek.jpg",
     "featured": true
@@ -130,7 +230,17 @@
     "distance": 0,
     "price": 8000,
     "maxGroupSize": 12,
-    "desc": "Immerse yourself in a rejuvenating yoga retreat in the spiritual town of Rishikesh. Experience daily yoga and meditation sessions, enjoy the serene surroundings, and connect with your inner self.",
+    "description": [
+      {
+        "desc": "Immerse yourself in a rejuvenating yoga retreat in the spiritual town of Rishikesh. Experience daily yoga and meditation sessions, enjoy the serene surroundings, and connect with your inner self.",
+        "descSummary": "The Rishikesh Yoga Retreat is renowned for its serene environment and spiritual atmosphere. This retreat is popular for providing a holistic experience of yoga and meditation in the tranquil setting of Rishikesh.",
+        "descPopularSpots": "Popular locations include the Parmarth Niketan Ashram, known for its spiritual programs and yoga sessions, and the Laxman Jhula, a suspension bridge with spiritual significance. The Beatles Ashram is also a must-visit for its historical connection to the famous band.",
+        "history": [
+          "Rishikesh is known as the 'Yoga Capital of the World' and attracts spiritual seekers from around the globe.",
+          "The town is located on the banks of the Ganges River and is a gateway to the Himalayas."
+        ]
+      }
+    ],
     "reviews": [],
     "photo": "/tour-images/tour-img10.jpg",
     "featured": true
@@ -142,7 +252,17 @@
     "distance": 0,
     "price": 9000,
     "maxGroupSize": 8,
-    "desc": "Discover the lush tea plantations of Munnar, Kerala. Learn about the tea-making process, witness beautiful landscapes, and indulge in aromatic tea tastings.",
+    "description": [
+      {
+        "desc": "Discover the lush tea plantations of Munnar, Kerala. Learn about the tea-making process, witness beautiful landscapes, and indulge in aromatic tea tastings.",
+        "descSummary": "The Munnar Tea Plantation Tour is popular for its scenic beauty and in-depth exploration of tea cultivation. Visitors are drawn to the lush green plantations and the opportunity to learn about and taste some of the finest teas.",
+        "descPopularSpots": "Key attractions include the Tea Museum, which provides insights into the history and process of tea production, and the Eravikulam National Park, home to the endangered Nilgiri Tahr. The Mattupetty Dam offers stunning views and boating opportunities.",
+        "history": [
+          "Munnar's tea plantations were established by the British in the late 19th century.",
+          "The region's cool climate and high elevation are ideal for tea cultivation, making Munnar a major hub for tea production."
+        ]
+      }
+    ],
     "reviews": [],
     "photo": "/tour-images/tour-img11.jpg",
     "featured": true
@@ -154,7 +274,17 @@
     "distance": 0,
     "price": 5000,
     "maxGroupSize": 10,
-    "desc": "Embark on a spiritual journey in Varanasi, one of the oldest and holiest cities in the world. Witness mesmerizing Ganga Aarti ceremonies, explore ancient temples, and experience the spiritual rituals of the city.",
+    "description": [
+      {
+        "desc": "Embark on a spiritual journey in Varanasi, one of the oldest and holiest cities in the world. Witness mesmerizing Ganga Aarti ceremonies, explore ancient temples, and experience the spiritual rituals of the city.",
+        "descSummary": "The Varanasi Spiritual Journey is celebrated for its profound spiritual and cultural experiences. This tour is popular among those seeking a deep connection with India's religious heritage and vibrant rituals.",
+        "descPopularSpots": "Popular spots include the Kashi Vishwanath Temple, one of the most sacred Hindu temples, and the Dasaswamedh Ghat, famous for its daily Ganga Aarti ceremonies. The Sarnath, where Buddha delivered his first sermon, is also a significant site.",
+        "history": [
+          "Varanasi is one of the oldest continuously inhabited cities in the world, with a history dating back over 3,000 years.",
+          "The city is a major cultural and religious center for Hindus, Buddhists, and Jains."
+        ]
+      }
+    ],
     "reviews": [],
     "photo": "/tour-images/tour-img12.jpg",
     "featured": true,
@@ -167,7 +297,17 @@
     "distance": 0,
     "price": 15000,
     "maxGroupSize": 6,
-    "desc": "Explore the stunning islands of Andaman and Nicobar with this island-hopping tour. Enjoy white sandy beaches, crystal-clear waters, and vibrant marine life.",
+    "description": [
+      {
+        "desc": "Explore the stunning islands of Andaman and Nicobar with this island-hopping tour. Enjoy white sandy beaches, crystal-clear waters, and vibrant marine life.",
+        "descSummary": "The Andaman Island Hopping tour is highly popular for its pristine beaches, clear waters, and rich marine biodiversity. This tour offers a perfect mix of relaxation and adventure, making it a favorite among beach and nature enthusiasts.",
+        "descPopularSpots": "Key spots include Radhanagar Beach on Havelock Island, known for its picturesque sunsets, and the Cellular Jail in Port Blair, a historical site with significant cultural value. Snorkeling and scuba diving at Neil Island are also popular activities.",
+        "history": [
+          "The Andaman and Nicobar Islands have a diverse history, with influences from indigenous tribes, British colonization, and Japanese occupation during World War II.",
+          "The Cellular Jail is a major historical landmark, known for its role in India's struggle for independence."
+        ]
+      }
+    ],
     "reviews": [],
     "photo": "/tour-images/tour-img13.jpg",
     "featured": true

@@ -1,17 +1,14 @@
-
-
-import React from 'react';
-import { Card, CardBody } from 'reactstrap';
-import { Link } from 'react-router-dom';
-import calculateAvgRating from '../../units/avgRating';
-
+import React from "react";
+import { Card, CardBody } from "reactstrap";
+import { Link } from "react-router-dom";
+import calculateAvgRating from "../../units/avgRating";
 
 import "./tour-card.css";
 
 const TourCard = ({ tour }) => {
   const { _id, title, city, photo, price, featured, reviews } = tour;
 
-  const { totalRating, avgRating } = calculateAvgRating(reviews)
+  const { totalRating, avgRating } = calculateAvgRating(reviews);
 
   return (
     <div className="tour__card">
@@ -22,47 +19,51 @@ const TourCard = ({ tour }) => {
         </div>
 
         <CardBody>
-          <div className="card__top d-flex align-items-center
-            justify-content-between">
+          <div
+            className="card__top d-flex align-items-center
+            justify-content-between"
+          >
             <span className="tour__location d-flex align-items-center gap-1">
               <i className="ri-map-pin-line"></i> {city}
             </span>
 
             <span className="tour__rating d-flex align-items-center gap-1">
-              <i className="ri-star-fill"></i> {avgRating === 0 ? null : avgRating}
-              {totalRating === 0 ? ('Not rated')
-                : (
-                  <span>({reviews.length})</span>
-                )}
-
-
+              <i className="ri-star-fill"></i>{" "}
+              {avgRating === 0 ? null : avgRating}
+              {totalRating === 0 ? (
+                "Not rated"
+              ) : (
+                <span>({reviews.length})</span>
+              )}
             </span>
           </div>
 
-          <h5 className='tour__title'>
+          <h5 className="tour__title">
             <Link to={`/tour/${_id}`}>{title}</Link>
           </h5>
-       <div className="tour__title1">
-       <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, quisquam architecto, facilis libero laboriosam iure voluptatum et quos vero nostrum veniam!</span>
-       </div>
-         
-          <div className="card__bottom  d-flex align-items-center
-            justify-content-between mt-3">
+          <div className="tour__title1">
+            <span>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente,
+              quisquam architecto, facilis libero laboriosam iure voluptatum et
+              quos vero nostrum veniam!
+            </span>
+          </div>
+
+          <div
+            className="card__bottom  d-flex align-items-center
+            justify-content-between mt-3"
+          >
             <h5>
               ₹{price}/- <span>per person</span>
             </h5>
-              <button className='btn booking__btn '>
+            <button className="btn booking__btn ">
               <Link to={`/tour/${_id}`}>Book Now</Link>
             </button>
           </div>
         </CardBody>
       </Card>
-
-
-
     </div>
+  );
+};
 
-  )
-}
-
-export default TourCard
+export default TourCard;

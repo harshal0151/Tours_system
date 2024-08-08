@@ -18,13 +18,14 @@
 .servies_card {
   width: 250px;
   overflow: hidden;
+  border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
 }
 
 .servies_card img {
   width: 100%;
   object-fit: cover;
-  padding: 1rem;
+  padding: 3rem;
 }
 
 .Link {

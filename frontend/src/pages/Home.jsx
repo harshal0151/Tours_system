@@ -19,6 +19,7 @@ import AboutSlider from "../component/UI/AboutSlider";
 import BlogList from "../component/UI/BlogList";
 import PopularTours from "../component/popular-tours/PopularTours";
 import Services from "../component/services/Services";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -85,7 +86,10 @@ const Home = () => {
             <Row>
               <Col lg="12" className="mb-5">
                 <Subtitle Subtitle={"Explore"} />
-                <h2 className="featured__tour-title"> Tours packages </h2>
+         <div className="title_div">
+         <h2 className="featured__tour-title"> Tours packages </h2>
+        <Link to="/tours"  className="links"> <p>see more </p></Link>
+         </div>
               </Col>
               <FeaturedTourList />
             </Row>
@@ -96,7 +100,10 @@ const Home = () => {
           <Container>
             <Row>
               <Col lg="12" className="mb-5">
+              <div className="title_div">
                 <h2 className="featured__tour-title">Popular tour </h2>
+               <Link to="/tours" className="links"> <p>see more </p></Link>
+              </div>
               </Col>
               <PopularTours />
             </Row>

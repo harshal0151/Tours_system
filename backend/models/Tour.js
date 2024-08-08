@@ -1,5 +1,26 @@
 import mongoose from "mongoose";
 
+const descriptionSchema = new mongoose.Schema({
+  desc: {
+    type: String,
+    required: true,
+  },
+  descSummary: {
+    type: String,
+    required: true,
+  },
+  descPopularSpots: {
+    type: String,
+    required: true,
+  },
+  history: [
+    {
+      type: String,
+      required: true,
+    },
+  ],
+});
+
 const tourSchema = new mongoose.Schema(
   {
     title: {
@@ -23,8 +44,8 @@ const tourSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
-    desc: {
-      type: String,
+    description: {
+      type: [descriptionSchema],
       required: true,
     },
     price: {
@@ -35,14 +56,12 @@ const tourSchema = new mongoose.Schema(
       type: Number,
       required: true,
     },
-
     reviews: [
       {
         type: mongoose.Types.ObjectId,
         ref: "Review",
       },
     ],
-
     featured: {
       type: Boolean,
       default: false,

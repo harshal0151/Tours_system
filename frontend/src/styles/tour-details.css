@@ -47,15 +47,18 @@
 }
 
 .rating__group span {
-    font-size: 1.1rem;
+    font-size: 1rem;
     display: flex;
     align-items: center;
     color: var(--secondary-color);
+    gap: 1px;
     cursor: pointer;
 }
-
+.rating__group span:hover {
+    color: var(--heading-color);
+}
 .tour__reviews h4 {
-    margin-bottom: 3rem;
+    margin: 3rem 0;
 }
 
 .reviews__input {
@@ -70,7 +73,7 @@
 
 .reviews__input input {
     width: 100%;
-    padding: 0.5rem 0;
+    padding: 0rem 0.5rem;
     border: none;
 }
 
@@ -118,6 +121,10 @@
 
 .review__item span {
     font-size: 500;
+}
+.description ul li{
+    list-style-type: circle;
+     margin-bottom: 10px;
 }
 
 @media only screen and (max-width:768px){

@@ -4,22 +4,22 @@
      box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
      border: 1px solid rgb(203, 217, 246);
      position: sticky;
-     top: 100px;
+     top: 80px;
  }
 
  .booking_top h3 {
-     font-size: 2rem;
+     font-size: 1.5rem;
      font-weight: 700;
  }
 
  .booking_top h3 span {
-     font-size: 1.1rem;
+     font-size: 1rem;
      font-weight: 400;
      color: var(--text-color);
  }
 
  .booking_top span {
-     font-size: 1.1rem;
+     font-size: 1rem;
      font-weight: 600;
      color: var(--text-color);
  }

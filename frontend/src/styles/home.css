@@ -1,5 +1,7 @@
 
-
+.links{
+    text-decoration: none; 
+}
 .hero__subtitle img {
     width: 2.3rem;
     height: 2.3rem;
@@ -127,8 +129,25 @@ font-weight: 500;
     margin-top: 0.5rem;
 }
 
+.title_div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-
+}
+.title_div p{
+    color: rgb(61, 226, 241);
+    border: 1px solid var(--primary-color);
+    padding: 5px 20px;
+    border-radius: 50px;
+    color: var(--heading-color);
+    font-weight: 600;
+    cursor: pointer;
+}
+.title_div p:hover{
+    background-color: var(--primary-color);
+    color: #fff;
+}
 @media only screen and (max-width:992px){
     .hero__content h1{
         font-size: 2.5rem;
