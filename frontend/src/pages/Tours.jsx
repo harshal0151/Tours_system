@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import "../styles/tours.css";
 import LoadingImg from '../assets/all-images/blog-img/spin.svg';
+import TourPoster from "../../src/assets/all-images/tout-services/tourposter.jpg"
 import Subtitle from '../component/shared/Subtitle';
 import TourCard from '../component/shared/TourCard';
 import Newsletter from '../component/shared/Newsletter';
@@ -9,7 +10,6 @@ import { Container, Row, Col } from 'reactstrap';
 import Testimonials from '../component/Testtimonial/Testimonials';
 import useFetch from '../hooks/useFetch';
 import { BASE_URL } from '../units/config';
-import TourSlider from '../component/UI/TourSlider';
 import AboutSlider from "../component/UI/AboutSlider";
 import MasonryImagesGallery from "../component/Image-gallery/MasonryImagesGallery";
 
@@ -47,7 +47,13 @@ const Tours = () => {
 
   return (
     <>
-      <TourSlider />
+       <section>
+        <Container>
+          <Row>
+            <img src= {TourPoster} alt=''></img>
+          </Row>
+        </Container>
+       </section>
       <section>
         <Container>
           <Row>

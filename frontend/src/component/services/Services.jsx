@@ -10,7 +10,7 @@ function Services() {
   return (
     <div className="services">
       <ul>
-        <Link to= "/CarRent " className="Link">
+        <Link to= " " className="Link">
           <li>
             <div className="servies_card">
               <img src={img} alt="" />
@@ -19,7 +19,7 @@ function Services() {
           </li>
         </Link>
 
-        <Link className="Link">
+        <Link to='/CarRent' className="Link">
           <li>
             <div className="servies_card">
               <img src={img2} alt="" />
@@ -37,7 +37,7 @@ function Services() {
           </li>
         </Link>
 
-        <Link className="Link">
+        <Link to= '/Ai' className="Link">
           <li>
             <div className="servies_card">
               <img src={img4} alt="" />

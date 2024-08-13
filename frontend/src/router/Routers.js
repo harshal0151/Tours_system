@@ -9,6 +9,7 @@ import SearchResultList from "../pages/SearchResultList";
 import ThankYou from "../pages/ThankYou";
 import About from "../pages/About";
 import Services from "../pages/Services";
+import FoodAi from "../component/Ai/FoodAi"
 
 import NotFound from "../pages/NotFound";
 
@@ -30,6 +31,8 @@ const Routers = () => {
       <Route path="/about" element={<About />} />
       <Route path="/tours" element={<Tours />} />
       <Route path="/services" element={<Services />} />
+      <Route path="/Ai" element={<FoodAi />} />
+     
       <Route path="/tour/:id" element={<TourDetails />} />
       <Route path="/login" element={<Login />} />
       <Route path="/register" element={<Register />} />
