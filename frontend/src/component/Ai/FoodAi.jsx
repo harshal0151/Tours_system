@@ -6,7 +6,7 @@ import "../Ai/foodai.css";
 const AiwithText = () => {
   // Initialize Google Generative AI with API key
   const genAI = new GoogleGenerativeAI(
-    "AIzaSyAwjprrVaO4RlkRQWm_7OwUMX-zMTx8AyI"
+       "AIzaSyDRQIt0LpEj5qqHGZ4rSNBP4qgNia2D8iM"
     // import.meta.env.VITE_AI_KEY // Uncomment for Vite environment key usage
   );
 

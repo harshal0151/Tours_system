@@ -47,7 +47,7 @@ blockquote {
 .comment{
   display: flex;
   height: 100px;
-  margin-top: 1rem;
+  margin-top: 5rem;
   align-items: center;
   gap: 1rem;
 }

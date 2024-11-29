@@ -21,6 +21,7 @@ import Blog from "../pages/Blog";
 import BlogDetails from "../pages/BlogDetails";
 
 import Contact from "../pages/Contact";
+import PaymentMethod from "../component/UI/PaymentMethod";
 
 
 const Routers = () => {
@@ -32,6 +33,7 @@ const Routers = () => {
       <Route path="/tours" element={<Tours />} />
       <Route path="/services" element={<Services />} />
       <Route path="/Ai" element={<FoodAi />} />
+      <Route path="/payment" element={<PaymentMethod />} />
      
       <Route path="/tour/:id" element={<TourDetails />} />
       <Route path="/login" element={<Login />} />

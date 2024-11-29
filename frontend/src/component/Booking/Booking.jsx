@@ -58,6 +58,7 @@ const Booking = ({ tour, avgRating }) => {
               
             }
             navigate("/thank-you");
+            // navigate("/payment");
 
            
           } catch (err){
